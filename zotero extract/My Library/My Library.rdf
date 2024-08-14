@@ -1,0 +1,1270 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Article rdf:about="https://search.ebscohost.com/login.aspx?direct=true&amp;db=asf&amp;AN=160138201&amp;site=ehost-live">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:00030007"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>May</foaf:surname>
+                        <foaf:givenName>Ryan M.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Goebbert</foaf:surname>
+                        <foaf:givenName>Kevin H.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Thielen</foaf:surname>
+                        <foaf:givenName>Jonathan E.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Leeman</foaf:surname>
+                        <foaf:givenName>John R.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Camron</foaf:surname>
+                        <foaf:givenName>M. Drew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bruick</foaf:surname>
+                        <foaf:givenName>Zachary</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bruning</foaf:surname>
+                        <foaf:givenName>Eric C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manser</foaf:surname>
+                        <foaf:givenName>Russell P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Arms</foaf:surname>
+                        <foaf:givenName>Sean C.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Marsh</foaf:surname>
+                        <foaf:givenName>Patrick T.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_2"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Algorithms</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Atmosphere</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data libraries</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Data processing/distribution</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Data visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Groupware (Computer software)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Python programming language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Software</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Software development tools</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>MetPy: A Meteorological Python Library for Data Analysis and Visualization: Bulletin of the American Meteorological Society</dc:title>
+        <dcterms:abstract>MetPy is an open-source, Python-based package for meteorology, providing domain-specific functionality built extensively on top of the robust scientific Python software stack, which includes libraries like NumPy, SciPy, Matplotlib, and xarray. The goal of the project is to bring the weather analysis capabilities of GEMPAK (and similar software tools) into a modern computing paradigm. MetPy strives to employ best practices in its development, including software tests, continuous integration, and automated publishing of web-based documentation. As such, MetPy represents a sustainable, long-term project that fills a need for the meteorological community. MetPy's development is substantially driven by its user community, both through feedback on a variety of open, public forums like Stack Overflow, and through code contributions facilitated by the GitHub collaborative software development platform. MetPy has recently seen the release of version 1.0, with robust functionality for analyzing and visualizing meteorological datasets. While previous versions of MetPy have already seen extensive use, the 1.0 release represents a significant milestone in terms of completeness and a commitment to long-term support for the programming interfaces. This article provides an overview of MetPy's suite of capabilities, including its use of labeled arrays and physical unit information as its core data model, unit-aware calculations, cross sections, skew T and GEMPAK-like plotting, station model plots, and support for parsing a variety of meteorological data formats. The general road map for future planned development for MetPy is also discussed.</dcterms:abstract>
+        <dc:date>2022-10</dc:date>
+        <z:shortTitle>MetPy</z:shortTitle>
+        <z:libraryCatalog>EBSCOhost</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://search.ebscohost.com/login.aspx?direct=true&amp;db=asf&amp;AN=160138201&amp;site=ehost-live</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-17 01:41:54</dcterms:dateSubmitted>
+        <bib:pages>E2273-E2284</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:00030007">
+        <prism:volume>103</prism:volume>
+        <dc:title>Bulletin of the American Meteorological Society</dc:title>
+        <dc:identifier>DOI 10.1175/BAMS-D-21-0125.1</dc:identifier>
+        <prism:number>10</prism:number>
+        <dc:identifier>ISSN 00030007</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_2">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2/May et al. - 2022 - MetPy A Meteorological Python Library for Data An.pdf"/>
+        <dc:title>EBSCO Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://content.ebscohost.com/cds/retrieve?content=AQICAHiylJ_bvOB56hI8UzTN6Ryruh7a0kiIBN_ANwtaWYjmxwFUPVU4vhf8JNo0fK-558quAAAA2zCB2AYJKoZIhvcNAQcGoIHKMIHHAgEAMIHBBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDL3rw9cU_rrb6YeegwIBEICBk1U8yf8S2Pbx3PzxNgGDC0jJbNwvzQWWETswC7Qp5pgc0VD7nfOf0_89NyLlYQoHuTvwV8fneMDH8kj-hLrLVIUBPkq3NiTIPspCS00zOAzOIlNCe1v_N13gb9SC1AyM6kYiq-UoqilUaeyAix7QdSZxIpWyk8PVjF9UAm18apOiji7cNLGV5QU7SZJfAWfoW7FfUQ==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-17 01:42:13</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://search.ebscohost.com/login.aspx?direct=true&amp;db=asf&amp;AN=144201760&amp;site=ehost-live">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:07490208"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Junhan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_4"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Data visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Coastal engineering</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>data analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Environmental monitoring</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Hurmuzgan (Iran)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Information visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>marine environment</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Middleware</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>monitoring data</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ocean engineering</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Thematic maps</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Marine Environmental Monitoring Data Based on Information Visualization: Journal of Coastal Research</dc:title>
+        <dcterms:abstract>Li, J., 2020. Marine environmental monitoring data based on information visualization. In: Yang, Y.; Mi, C.; Zhao, L., and Lam, S. (eds.), Global Topics and New Trends in Coastal Research: Port, Coastal and Ocean Engineering. Journal of Coastal Research, Special Issue No. 103, pp. 530–534. Coconut Creek (Florida), ISSN 0749-0208. When the current method was used to analyze the marine environmental monitoring data, it was time-consuming, and the error of analysis results was too large, leading to low efficiency of data collection and low accuracy of data analysis. Therefore, an analysis method of marine environment monitoring data based on information visualization was put forward. The application portal layer, visualization service layer, grid middleware layer and visualization resource layer were used to build the monitoring platform architecture. The monitoring for marine environment data was realized through the grid platform implementation mechanism, information sharing service and visualization service. Through the evaluation equation, thematic map and evaluation report, the marine environmental monitoring data was analyzed. Experimental results show that the proposed method has high efficiency in data acquisition and high accuracy in data analysis.</dcterms:abstract>
+        <dc:date>2020-05-02</dc:date>
+        <z:shortTitle>Marine Environmental Monitoring Data Based on Information Visualization</z:shortTitle>
+        <z:libraryCatalog>EBSCOhost</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://search.ebscohost.com/login.aspx?direct=true&amp;db=asf&amp;AN=144201760&amp;site=ehost-live</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-17 01:46:53</dcterms:dateSubmitted>
+        <bib:pages>530-534</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:07490208">
+        <prism:volume>103</prism:volume>
+        <dc:title>Journal of Coastal Research</dc:title>
+        <dc:identifier>DOI 10.2112/SI103-107.1</dc:identifier>
+        <dc:identifier>ISSN 07490208</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_4">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/4/Li - 2020 - Marine Environmental Monitoring Data Based on Info.pdf"/>
+        <dc:title>EBSCO Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://content.ebscohost.com/cds/retrieve?content=AQICAHiylJ_bvOB56hI8UzTN6Ryruh7a0kiIBN_ANwtaWYjmxwEew8ebbANuSYaHKGrTHQdiAAAA2zCB2AYJKoZIhvcNAQcGoIHKMIHHAgEAMIHBBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDIuzN9kf_fxDnrm0eQIBEICBkwF_IVJ9qwIKELq8a1aZWKOcKYb07k2YksWZ0z05auykcXAedlITSa89mFwA88Z6_Hz2veaplOhVOgEATJDMxHiaEBEBF_7XBVS20a9wjbg_FYppg08QhtdYjshM7jffdDlUU7ZPpsfZgrvqs1OlJkWAlVdMwVg3Kd4MuvHkkZJG18fB6gg2jvajy9JQhT_b6RPdvQ==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-17 01:47:01</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://search.ebscohost.com/login.aspx?direct=true&amp;db=asf&amp;AN=143340361&amp;site=ehost-live">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:07390572"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tucker</foaf:surname>
+                        <foaf:givenName>Tyler</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Giglio</foaf:surname>
+                        <foaf:givenName>Donata</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Scanderbeg</foaf:surname>
+                        <foaf:givenName>Megan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Shen</foaf:surname>
+                        <foaf:givenName>Samuel S. P.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_6"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Data visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Python programming language</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data modeling</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Ocean temperature</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Time-frequency analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Web-based user interfaces</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>World maps</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Argovis: A Web Application for Fast Delivery, Visualization, and Analysis of Argo Data: Journal of Atmospheric &amp; Oceanic Technology</dc:title>
+        <dcterms:abstract>Since the mid-2000s, the Argo oceanographic observational network has provided near-real-time fourdimensional data for the global ocean for the first time in history. Internet (i.e., the ''web'') applications that handle the more than two million Argo profiles of ocean temperature, salinity, and pressure are an active area of development. This paper introduces a new and efficient interactive Argo data visualization and delivery web application named Argovis that is built on a classic three-tier design consisting of a front end, back end, and database. Together these components allow users to navigate 4D data on a world map of Argo floats, with the option to select a custom region, depth range, and time period. Argovis's back end sends data to users in a simple format, and the front end quickly renders web-quality figures. More advanced applications query Argovis from other programming environments, such as Python, R, andMATLAB. Our Argovis architecture allows expert data users to build their own functionality for specific applications, such as the creation of spatially gridded data for a given time and advanced time-frequency analysis for a space-time selection. Argovis is aimed to both scientists and the public, with tutorials and examples available on the website, describing how to use the Argovis data delivery system--for example, how to plot profiles in a region over time or to monitor profile metadata.</dcterms:abstract>
+        <dc:date>2020-03</dc:date>
+        <z:shortTitle>Argovis</z:shortTitle>
+        <z:libraryCatalog>EBSCOhost</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://search.ebscohost.com/login.aspx?direct=true&amp;db=asf&amp;AN=143340361&amp;site=ehost-live</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-17 01:50:06</dcterms:dateSubmitted>
+        <bib:pages>401-416</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:07390572">
+        <prism:volume>37</prism:volume>
+        <dc:title>Journal of Atmospheric &amp; Oceanic Technology</dc:title>
+        <dc:identifier>DOI 10.1175/JTECH-D-19-0041.1</dc:identifier>
+        <prism:number>3</prism:number>
+        <dc:identifier>ISSN 07390572</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_6">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/6/Tucker et al. - 2020 - Argovis A Web Application for Fast Delivery, Visu.pdf"/>
+        <dc:title>EBSCO Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://content.ebscohost.com/cds/retrieve?content=AQICAHiylJ_bvOB56hI8UzTN6Ryruh7a0kiIBN_ANwtaWYjmxwHcmy7TEpBTdMJQ5Hku8UPBAAAA2zCB2AYJKoZIhvcNAQcGoIHKMIHHAgEAMIHBBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDJsEZmyDAJu_hrsfMwIBEICBk3TxpZ9ybTILcJD1NoqnhXbjQ18x7C_1duZFLL1Rhv04u0AX8msvmgNO7NjxTbz6uH5OKlFI4V-9PQCAIwvV7aB7WWjadkY_3ols2pq3AdnNb8xGX5eP4O5nJczDlJpGDDjoBekdifnxQnHC_clB8ekw-FRCV2NjMr9EOCgR7v2QTTXH_wXn3kI8HJvzMdkMI7UTMA==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-17 01:50:45</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.sciencedirect.com/science/article/pii/S1364815220308896">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1364-8152"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Feenstra</foaf:surname>
+                        <foaf:givenName>Brandon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Collier-Oxandale</foaf:surname>
+                        <foaf:givenName>Ashley</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Papapostolou</foaf:surname>
+                        <foaf:givenName>Vasileios</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cocker</foaf:surname>
+                        <foaf:givenName>David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Polidori</foaf:surname>
+                        <foaf:givenName>Andrea</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_8"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Citizen scientist</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Community air monitoring</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Data interpretation</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Low-cost air quality sensor</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Open-source R package</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Particulate matter PM2.5</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>The AirSensor open-source R-package and DataViewer web application for interpreting community data collected by low-cost sensor networks</dc:title>
+        <dcterms:abstract>While large-scale low-cost sensor networks are now recording air pollutant concentrations at finer spatial and temporal scales than previously measured, the large environmental data sets generated by these sensor networks can become overwhelming when considering the scientific skills required to analyze the data and generate interpretable results. This paper summarizes the development of an open-source R package (AirSensor) and interactive web application (DataViewer) designed to address the environmental data science challenges of visualizing and understanding local air quality conditions with community networks of low-cost air quality sensors. AirSensor allows users to access historical data, add spatial metadata, and create maps and plots for viewing community monitoring data. The DataViewer application was developed to incorporate the functionality and plotting functions of the R package into a user-friendly web experience that would serve as the primary source for data communication for community-based organizations and citizen scientists.</dcterms:abstract>
+        <dc:date>2020-12-01</dc:date>
+        <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S1364815220308896</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 21:22:00</dcterms:dateSubmitted>
+        <bib:pages>104832</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1364-8152">
+        <prism:volume>134</prism:volume>
+        <dc:title>Environmental Modelling &amp; Software</dc:title>
+        <dc:identifier>DOI 10.1016/j.envsoft.2020.104832</dc:identifier>
+        <dcterms:alternative>Environmental Modelling &amp; Software</dcterms:alternative>
+        <dc:identifier>ISSN 1364-8152</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_8">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/8/S1364815220308896.html"/>
+        <dc:title>ScienceDirect Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.sciencedirect.com/science/article/pii/S1364815220308896</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-04-25 21:22:07</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-1-78953-562-4">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Packt Publishing Ltd</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Mukhiya</foaf:surname>
+                        <foaf:givenName>Suresh Kumar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ahmed</foaf:surname>
+                        <foaf:givenName>Usman</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_11"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Computer Architecture</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computers / Data Science / Data Modeling &amp; Design</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Data Science / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computers / Database Administration &amp; Management</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Languages / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Languages / Python</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Hands-On Exploratory Data Analysis with Python: Perform EDA techniques to understand, summarize, and investigate your data</dc:title>
+        <dcterms:abstract>Discover techniques to summarize the characteristics of your data using PyPlot, NumPy, SciPy, and pandasKey FeaturesUnderstand the fundamental concepts of exploratory data analysis using PythonFind missing values in your data and identify the correlation between different variablesPractice graphical exploratory analysis techniques using Matplotlib and the Seaborn Python packageBook DescriptionExploratory Data Analysis (EDA) is an approach to data analysis that involves the application of diverse techniques to gain insights into a dataset. This book will help you gain practical knowledge of the main pillars of EDA - data cleaning, data preparation, data exploration, and data visualization.You’ll start by performing EDA using open source datasets and perform simple to advanced analyses to turn data into meaningful insights. You’ll then learn various descriptive statistical techniques to describe the basic characteristics of data and progress to performing EDA on time-series data. As you advance, you’ll learn how to implement EDA techniques for model development and evaluation and build predictive models to visualize results. Using Python for data analysis, you’ll work with real-world datasets, understand data, summarize its characteristics, and visualize it for business intelligence.By the end of this EDA book, you’ll have developed the skills required to carry out a preliminary investigation on any dataset, yield insights into data, present your results with visual aids, and build a model that correctly predicts future outcomes.What you will learnImport, clean, and explore data to perform preliminary analysis using powerful Python packagesIdentify and transform erroneous data using different data wrangling techniquesExplore the use of multiple regression to describe non-linear relationshipsDiscover hypothesis testing and explore techniques of time-series analysisUnderstand and interpret results obtained from graphical analysisBuild, train, and optimize predictive models to estimate resultsPerform complex EDA techniques on open source datasetsWho this book is forThis EDA book is for anyone interested in data analysis, especially students, statisticians, data analysts, and data scientists. The practical concepts presented in this book can be applied in various disciplines to enhance decision-making processes with data analysis and synthesis. Fundamental knowledge of Python programming and statistical concepts is all you need to get started with this book.</dcterms:abstract>
+        <dc:date>2020-03-27</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Hands-On Exploratory Data Analysis with Python</z:shortTitle>
+        <z:libraryCatalog>Google Books</z:libraryCatalog>
+        <dc:description>Google-Books-ID: QcHZDwAAQBAJ</dc:description>
+        <dc:identifier>ISBN 978-1-78953-562-4</dc:identifier>
+        <z:numPages>342</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_11">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Google Books Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://books.google.co.nz/books?id=QcHZDwAAQBAJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-07 21:52:04</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://ieeexplore.ieee.org/abstract/document/8314667">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2169-3536"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Jiaying</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Tang</foaf:surname>
+                        <foaf:givenName>Tao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Wei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenName>Bo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kong</foaf:surname>
+                        <foaf:givenName>Xiangjie</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xia</foaf:surname>
+                        <foaf:givenName>Feng</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_13"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Data visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Big Data</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data mining</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Libraries</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Scholarly data</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>scholarly data analysis</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>scholarly data visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Tools</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>visual analysis</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Visual analytics</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A Survey of Scholarly Data Visualization</dc:title>
+        <dcterms:abstract>Scholarly information usually contains millions of raw data, such as authors, papers, citations, as well as scholarly networks. With the rapid growth of the digital publishing and harvesting, how to visually present the data efficiently becomes challenging. Nowadays, various visualization techniques can be easily applied on scholarly data visualization and visual analysis, which enables scientists to have a better way to represent the structure of scholarly data sets and reveal hidden patterns in the data. In this paper, we first introduce the basic concepts and the collection of scholarly data. Then, we provide a comprehensive overview of related data visualization tools, existing techniques, as well as systems for the analyzing volumes of diverse scholarly data. Finally, open issues are discussed to pursue new solutions for abundant and complicated scholarly data visualization, as well as techniques, that support a multitude of facets.</dcterms:abstract>
+        <dc:date>2018</dc:date>
+        <z:libraryCatalog>IEEE Xplore</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/abstract/document/8314667</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-07 21:52:16</dcterms:dateSubmitted>
+        <dc:description>Conference Name: IEEE Access</dc:description>
+        <bib:pages>19205-19221</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2169-3536">
+        <prism:volume>6</prism:volume>
+        <dc:title>IEEE Access</dc:title>
+        <dc:identifier>DOI 10.1109/ACCESS.2018.2815030</dc:identifier>
+        <dc:identifier>ISSN 2169-3536</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_13">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/13/Liu et al. - 2018 - A Survey of Scholarly Data Visualization.pdf"/>
+        <dc:title>IEEE Xplore Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://ieeexplore.ieee.org/ielx7/6287639/8274985/08314667.pdf?tp=&amp;arnumber=8314667&amp;isnumber=8274985&amp;ref=aHR0cHM6Ly9pZWVleHBsb3JlLmllZWUub3JnL2Fic3RyYWN0L2RvY3VtZW50LzgzMTQ2Njc=</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-07 21:52:30</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2104.00841">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Proceedings of the 2021 International Conference on Management of Data</dc:title>
+                <dc:identifier>DOI 10.1145/3448016.3457330</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Peng</foaf:surname>
+                        <foaf:givenName>Jinglin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Weiyuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lockhart</foaf:surname>
+                        <foaf:givenName>Brandon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Bian</foaf:surname>
+                        <foaf:givenName>Song</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yan</foaf:surname>
+                        <foaf:givenName>Jing Nathan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xu</foaf:surname>
+                        <foaf:givenName>Linghao</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chi</foaf:surname>
+                        <foaf:givenName>Zhixuan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rzeszotarski</foaf:surname>
+                        <foaf:givenName>Jeffrey</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wang</foaf:surname>
+                        <foaf:givenName>Jiannan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_14"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Databases</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>DataPrep.EDA: Task-Centric Exploratory Data Analysis for Statistical Modeling in Python</dc:title>
+        <dcterms:abstract>Exploratory Data Analysis (EDA) is a crucial step in any data science project. However, existing Python libraries fall short in supporting data scientists to complete common EDA tasks for statistical modeling. Their API design is either too low level, which is optimized for plotting rather than EDA, or too high level, which is hard to specify more fine-grained EDA tasks. In response, we propose DataPrep.EDA, a novel task-centric EDA system in Python. DataPrep.EDA allows data scientists to declaratively specify a wide range of EDA tasks in different granularity with a single function call. We identify a number of challenges to implement DataPrep.EDA, and propose effective solutions to improve the scalability, usability, customizability of the system. In particular, we discuss some lessons learned from using Dask to build the data processing pipelines for EDA tasks and describe our approaches to accelerate the pipelines. We conduct extensive experiments to compare DataPrep.EDA with Pandas-profiling, the state-of-the-art EDA system in Python. The experiments show that DataPrep.EDA significantly outperforms Pandas-profiling in terms of both speed and user experience. DataPrep.EDA is open-sourced as an EDA component of DataPrep: https://github.com/sfu-db/dataprep.</dcterms:abstract>
+        <dc:date>2021-06-09</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>DataPrep.EDA</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2104.00841</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-08 06:56:27</dcterms:dateSubmitted>
+        <dc:description>arXiv:2104.00841 [cs]</dc:description>
+        <bib:pages>2271-2280</bib:pages>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_14">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/14/Peng et al. - 2021 - DataPrep.EDA Task-Centric Exploratory Data Analys.pdf"/>
+        <dc:title>Peng et al. - 2021 - DataPrep.EDA Task-Centric Exploratory Data Analys.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://arxiv.org/pdf/2104.00841</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-08 06:56:18</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://iopscience.iop.org/article/10.1088/1742-6596/1757/1/012122">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1742-6588,%201742-6596"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenName>Shengjia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zeng</foaf:surname>
+                        <foaf:givenName>Yunhan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Shangru</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenName>Songlin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_24"/>
+        <dc:title>Research on Python Data Visualization Technology</dc:title>
+        <dcterms:abstract>In recent years, researchers at home and abroad have accumulated a lot of experience in the research of data visualization technology, and they have played animportant role in scientific discovery, medical diagnosis, business decision-making, and engineering applications. As a library developed using Python language, Matplotlib has a concise language, high drawing accuracy, and simple and easy-to-understand code. This article first introduces data visualization and related technologies used and then usesPython's Matplotlib library and pyecharts library to realize data visualization. Through representative examples, combined with the use of correct charts, visual processing of data in different fields, so as to further analyze the effect of visualization.</dcterms:abstract>
+        <dc:date>2021-01-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://iopscience.iop.org/article/10.1088/1742-6596/1757/1/012122</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-12 21:58:25</dcterms:dateSubmitted>
+        <bib:pages>012122</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1742-6588,%201742-6596">
+        <prism:volume>1757</prism:volume>
+        <dc:title>Journal of Physics: Conference Series</dc:title>
+        <dc:identifier>DOI 10.1088/1742-6596/1757/1/012122</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>J. Phys.: Conf. Ser.</dcterms:alternative>
+        <dc:identifier>ISSN 1742-6588, 1742-6596</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_24">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/24/Cao et al. - 2021 - Research on Python Data Visualization Technology.pdf"/>
+        <dc:title>Cao et al. - 2021 - Research on Python Data Visualization Technology.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://iopscience.iop.org/article/10.1088/1742-6596/1757/1/012122/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-12 21:58:22</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_29">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>1757</prism:volume>
+                <dc:title>Journal of Physics: Conference Series</dc:title>
+                <dc:identifier>DOI 10.1088/1742-6596/1757/1/012122</dc:identifier>
+                <prism:number>1</prism:number>
+                <dcterms:alternative>J. Phys.: Conf. Ser.</dcterms:alternative>
+                <dc:identifier>ISSN 1742-6588, 1742-6596</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenName>Shengjia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zeng</foaf:surname>
+                        <foaf:givenName>Yunhan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Shangru</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cao</foaf:surname>
+                        <foaf:givenName>Songlin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_28"/>
+        <dc:title>Research on Python Data Visualization Technology</dc:title>
+        <dcterms:abstract>In recent years, researchers at home and abroad have accumulated a lot of experience in the research of data visualization technology, and they have played animportant role in scientific discovery, medical diagnosis, business decision-making, and engineering applications. As a library developed using Python language, Matplotlib has a concise language, high drawing accuracy, and simple and easy-to-understand code. This article first introduces data visualization and related technologies used and then usesPython's Matplotlib library and pyecharts library to realize data visualization. Through representative examples, combined with the use of correct charts, visual processing of data in different fields, so as to further analyze the effect of visualization.</dcterms:abstract>
+        <dc:date>2021-01-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://iopscience.iop.org/article/10.1088/1742-6596/1757/1/012122</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-14 22:30:40</dcterms:dateSubmitted>
+        <bib:pages>012122</bib:pages>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_28">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/28/Cao et al. - 2021 - Research on Python Data Visualization Technology.pdf"/>
+        <dc:title>Cao et al. - 2021 - Research on Python Data Visualization Technology.pdf</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://iopscience.iop.org/article/10.1088/1742-6596/1757/1/012122/pdf</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-14 22:30:35</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.mdpi.com/2073-4433/12/5/609">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2073-4433"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Encalada-Malca</foaf:surname>
+                        <foaf:givenName>Alexandra Abigail</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Cochachi-Bustamante</foaf:surname>
+                        <foaf:givenName>Javier David</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rodrigues</foaf:surname>
+                        <foaf:givenName>Paulo Canas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Salas</foaf:surname>
+                        <foaf:givenName>Rodrigo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>López-Gonzales</foaf:surname>
+                        <foaf:givenName>Javier Linkolk</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_31"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>air quality</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>dynamic time warping</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>particulate matter</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>PM10</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>spatio-temporal visualization</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>A Spatio-Temporal Visualization Approach of PM10 Concentration Data in Metropolitan Lima</dc:title>
+        <dcterms:abstract>Lima is considered one of the cities with the highest air pollution in Latin America. Institutions such as DIGESA, PROTRANSPORTE and SENAMHI are in charge of permanently monitoring air quality; therefore, the air quality visualization system must manage large amounts of data of different concentrations. In this study, a spatio-temporal visualization approach was developed for the exploration of data of the PM10 concentration in Metropolitan Lima, where the spatial behavior, at different time scales, of hourly concentrations of PM10 are analyzed using basic and specialized charts. The results show that the stations located to the east side of the metropolitan area had the highest concentrations, in contrast to the stations located in the center and north that reported better air quality. According to the temporal variation, the station with the highest average of biannual and annual PM10 was the HCH station. The highest PM10 concentrations were registered in 2018, during the summer, highlighting the month of March with daily averages that reached 435 μμg/m3. During the study period, the CRB was the station that recorded the lowest concentrations and the only one that met the Environmental Quality Standard for air quality. The proposed approach exposes a sequence of steps for the elaboration of charts with increasingly specific time periods according to their relevance, and a statistical analysis, such as the dynamic temporal correlation, that allows to obtain a detailed visualization of the spatio-temporal variations of PM10 concentrations. Furthermore, it was concluded that the meteorological variables do not indicate a causal relationship with respect to PM10 levels, but rather that the concentrations of particulate material are related to the urban characteristics of each district.</dcterms:abstract>
+        <dc:date>2021/5</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>www.mdpi.com</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://www.mdpi.com/2073-4433/12/5/609</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-15 02:40:54</dcterms:dateSubmitted>
+        <dc:rights>http://creativecommons.org/licenses/by/3.0/</dc:rights>
+        <dc:description>Number: 5
+Publisher: Multidisciplinary Digital Publishing Institute</dc:description>
+        <bib:pages>609</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2073-4433">
+        <prism:volume>12</prism:volume>
+        <dc:title>Atmosphere</dc:title>
+        <dc:identifier>DOI 10.3390/atmos12050609</dc:identifier>
+        <prism:number>5</prism:number>
+        <dc:identifier>ISSN 2073-4433</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_31">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/31/Encalada-Malca et al. - 2021 - A Spatio-Temporal Visualization Approach of PM10 C.pdf"/>
+        <dc:title>Full Text PDF</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.mdpi.com/2073-4433/12/5/609/pdf?version=1620464966</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-15 02:40:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://www.proquest.com/openview/78cb76965d5cbc499eed85f62d8dced9/1?pq-origsite=gscholar&amp;cbl=2035897">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_33"/>
+        <dc:title>DATA ANALYSIS OF AIR QUALITY IN INDIA - ProQuest</dc:title>
+        <dcterms:abstract>Explore millions of resources from scholarly journals, books, newspapers, videos and more, on the ProQuest Platform.</dcterms:abstract>
+        <z:language>en</z:language>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.proquest.com/openview/78cb76965d5cbc499eed85f62d8dced9/1?pq-origsite=gscholar&amp;cbl=2035897</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-15 02:42:50</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_33">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/33/1.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.proquest.com/openview/78cb76965d5cbc499eed85f62d8dced9/1?pq-origsite=gscholar&amp;cbl=2035897</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-15 02:42:57</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://search.ebscohost.com/login.aspx?direct=true&amp;db=asf&amp;AN=124636637&amp;site=ehost-live">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:09765697"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>R.</foaf:surname>
+                        <foaf:givenName>Anu V.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sherly</foaf:surname>
+                        <foaf:givenName>Elizabeth</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_35"/>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Data libraries</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>cloud computing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Cloud computing</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Distributed computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>live migration</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Microsoft Azure (Computing platform)</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>virtual machine</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Virtual machine systems</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>virtualization</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Performance Optimizing Factor Analysis of Virtual Machine Live Migration in Cloud Data-centers</dc:title>
+        <dcterms:abstract>Cloud computing holds its importance in almost every field of technology. It makes provisioning, scaling, and maintenance of applications and services with sophisticated deployment and management of resources. Currently, many clouds, such as Amazon's EC2, Google's AppEngine, IBM's Blue- Cloud, and Microsoft's Azure are providing various cloud services.VM migration is a widely used cloud feature for better performance and efficiency. Allocation of jobs in an intelligent manner is essential for the efficient VM migration in any cloud environment. This paper analyses different factors which has direct impact on VM migration and thus on cloud performance. With the extensive simulations in cloudsim environment, we found that memory dirtying rate has a vital role in determining the performance of live migration in cloud data centres. We used different techniques to vary the memory dirtying rate and studied its impact on down time, total migration time and thus scope of performance improvement. Along with the dynamic parameters, static parameters are also contributed to performance improvement of live migration characteristics.</dcterms:abstract>
+        <dc:date>2017-05-15</dc:date>
+        <z:libraryCatalog>EBSCOhost</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://search.ebscohost.com/login.aspx?direct=true&amp;db=asf&amp;AN=124636637&amp;site=ehost-live</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-15 04:37:20</dcterms:dateSubmitted>
+        <bib:pages>2263-2270</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:09765697">
+        <prism:volume>8</prism:volume>
+        <dc:title>International Journal of Advanced Research in Computer Science</dc:title>
+        <prism:number>5</prism:number>
+        <dc:identifier>ISSN 09765697</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_35">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/35/R. and Sherly - 2017 - Performance Optimizing Factor Analysis of Virtual .pdf"/>
+        <dc:title>EBSCO Full Text</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://content.ebscohost.com/cds/retrieve?content=AQICAHiylJ_bvOB56hI8UzTN6Ryruh7a0kiIBN_ANwtaWYjmxwGNBLNTjsEveSXBcUV8ivpbAAAA2zCB2AYJKoZIhvcNAQcGoIHKMIHHAgEAMIHBBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDADqmCcAt0btNJKbAgIBEICBkyKhdU5tnR--dX53jC2reYzOyOrdjpd_9aQBdGhJGPJScJePxXOkSqqWGK2KYxWNwAMe87MqNn_vfm0Q8keInhUI73_LvjOopPLn2rfu42cClOIJKQ-UkzHRhgP5QfTN0tk3yJm14M51M_Sgs2nhz9f0lCEwJMC3KfaVnjxdHaB3wraON-jGLfZwXRWP1TBqbFGBxQ==</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-15 04:37:26</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Book rdf:about="urn:isbn:978-1-78839-062-0">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Packt Publishing Ltd</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Basak</foaf:surname>
+                        <foaf:givenName>Anindita</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Venkataraman</foaf:surname>
+                        <foaf:givenName>Krishna</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Murphy</foaf:surname>
+                        <foaf:givenName>Ryan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Singh</foaf:surname>
+                        <foaf:givenName>Manpreet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_37"/>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computers / Data Science / Data Modeling &amp; Design</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computers / Data Science / General</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computers / Distributed Systems / Cloud Computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Stream Analytics with Microsoft Azure: Real-time data processing for quick insights using Azure Stream Analytics</dc:title>
+        <dcterms:abstract>Develop and manage effective real-time streaming solutions by leveraging the power of Microsoft AzureAbout This BookAnalyze your data from various sources using Microsoft Azure Stream AnalyticsDevelop, manage and automate your stream analytics solution with Microsoft AzureA practical guide to real-time event processing and performing analytics on the cloudWho This Book Is ForIf you are looking for a resource that teaches you how to process continuous streams of data in real-time, this book is what you need. A basic understanding of the concepts in analytics is all you need to get started with this bookWhat You Will LearnPerform real-time event processing with Azure Stream AnalysisIncorporate the features of Big Data Lambda architecture pattern in real-time data processingDesign a streaming pipeline for storage and batch analysisImplement data transformation and computation activities over stream of eventsAutomate your streaming pipeline using Powershell and the .NET SDKIntegrate your streaming pipeline with popular Machine Learning and Predictive Analytics modelling algorithmsMonitor and troubleshoot your Azure Streaming jobs effectivelyIn DetailMicrosoft Azure is a very popular cloud computing service used by many organizations around the world. Its latest analytics offering, Stream Analytics, allows you to process and get actionable insights from different kinds of data in real-time.This book is your guide to understanding the basics of how Azure Stream Analytics works, and building your own analytics solution using its capabilities. You will start with understanding what Stream Analytics is, and why it is a popular choice for getting real-time insights from data. Then, you will be introduced to Azure Stream Analytics, and see how you can use the tools and functions in Azure to develop your own Streaming Analytics. Over the course of the book, you will be given comparative analytic guidance on using Azure Streaming with other Microsoft Data Platform resources such as Big Data Lambda Architecture integration for real time data analysis and differences of scenarios for architecture designing with Azure HDInsight Hadoop clusters with Storm or Stream Analytics. The book also shows you how you can manage, monitor, and scale your solution for optimal performance.By the end of this book, you will be well-versed in using Azure Stream Analytics to develop an efficient analytics solution that can work with any type of data.Style and approachA comprehensive guidance on developing real-time event processing with Azure Stream Analysis</dcterms:abstract>
+        <dc:date>2017-12-01</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Stream Analytics with Microsoft Azure</z:shortTitle>
+        <z:libraryCatalog>Google Books</z:libraryCatalog>
+        <dc:description>Google-Books-ID: dsxPDwAAQBAJ</dc:description>
+        <dc:identifier>ISBN 978-1-78839-062-0</dc:identifier>
+        <z:numPages>314</z:numPages>
+    </bib:Book>
+    <z:Attachment rdf:about="#item_37">
+        <z:itemType>attachment</z:itemType>
+        <dc:title>Google Books Link</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://books.google.co.nz/books?id=dsxPDwAAQBAJ</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-15 04:59:26</dcterms:dateSubmitted>
+        <z:linkMode>3</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:BookSection rdf:about="urn:isbn:9798868801310">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 9798868801310</dc:identifier>
+                <dc:title>Mastering Microsoft Fabric  : SAASification of Analytics</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Berkeley, CA</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Apress</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ghosh</foaf:surname>
+                        <foaf:givenName>Debananda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ghosh</foaf:surname>
+                        <foaf:givenName>Debananda</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:title>Microsoft Fabric for Data Scientists</dc:title>
+        <dcterms:abstract>End-to-end data science development requires data scientists, domain scientists (industry experts), data analysts, data engineers, and database administrators. Also, the right tools for each data science activity is essential. Microsoft Fabric provides role-specific user experiences for experimenting with machine learning.</dcterms:abstract>
+        <dc:date>2024</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/979-8-8688-0131-0_4</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-17 04:29:13</dcterms:dateSubmitted>
+        <dc:description>DOI: 10.1007/979-8-8688-0131-0_4</dc:description>
+        <bib:pages>95-129</bib:pages>
+    </bib:BookSection>
+    <bib:Article rdf:about="https://doi.org/10.1007/s11227-017-2189-1">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1573-0484"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yang</foaf:surname>
+                        <foaf:givenName>Chao-Tung</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chan</foaf:surname>
+                        <foaf:givenName>Yu-Wei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Liu</foaf:surname>
+                        <foaf:givenName>Jung-Chun</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Lou</foaf:surname>
+                        <foaf:givenName>Ben-Shen</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>Air pollution</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>IDW</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>R packages</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>RHadoop</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>SparkR</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:title>An implementation of cloud-based platform with R packages for spatiotemporal analysis of air pollution</dc:title>
+        <dcterms:abstract>Recently, the R package has become a popular tool for big data analysis due to its several matured software packages for the data analysis and visualization, including the analysis of air pollution. The air pollution problem is of increasing global concern as it has greatly impacts on the environment and human health. With the rapid development of IoT and the increase in the accuracy of geographical information collected by sensors, a huge amount of air pollution data were generated. Thus, it is difficult to analyze the air pollution data in a single machine environment effectively and reliably due to its inherent characteristic of memory design. In this work, we construct a distributed computing environment based on both the softwares of RHadoop and SparkR for performing the analysis and visualization of air pollution with the R more reliably and effectively. In the work, we firstly use the sensors, called EdiGreen AirBox to collect the air pollution data in Taichung, Taiwan. Then, we adopt the Inverse Distance Weighting method to transform the sensors’ data into the density map. Finally, the experimental results show the accuracy of the short-term prediction results of PM2.5 by using the ARIMA model. In addition, the verification with respect to the prediction accuracy with the MAPE method is also presented in the experimental results.</dcterms:abstract>
+        <dc:date>2020-03-01</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Springer Link</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/s11227-017-2189-1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-17 04:40:14</dcterms:dateSubmitted>
+        <bib:pages>1416-1437</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1573-0484">
+        <prism:volume>76</prism:volume>
+        <dc:title>The Journal of Supercomputing</dc:title>
+        <dc:identifier>DOI 10.1007/s11227-017-2189-1</dc:identifier>
+        <prism:number>3</prism:number>
+        <dcterms:alternative>J Supercomput</dcterms:alternative>
+        <dc:identifier>ISSN 1573-0484</dc:identifier>
+    </bib:Journal>
+</rdf:RDF>
